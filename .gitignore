@@ -1,0 +1,36 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Local-only wildcard files
+local-*
+local-*.*
+
+# Dependencies
+node_modules
+
+# Testing
+coverage
+
+# Node.js
+*.seed
+*.out
+*.pid
+npm-debug.log
+.node_history
+
+# Logging
+logs
+*.log
+
+# OS / Editors
+*~
+*#
+.DS_Store
+.env
+.netbeans
+nbproject
+.idea
+*.swp
+*.swo
+*.sublime-*
+*.tgz
+

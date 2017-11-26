@@ -1,0 +1,31 @@
+{
+  "name": "waveframe",
+  "version": "1.0.0",
+  "description": "WaveFrame API Framework by NetJump.io",
+  "homepage": "https://github.com/netjump-io/waveframe#readme",
+  "author": "NetJump.io Development Staff",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netjump-io/waveframe.git"
+  },
+  "scripts": {
+    "linter": "eslint \"**.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "2.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/netjump-io/waveframe/issues"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "mocha": true
+    }
+  }
+}
